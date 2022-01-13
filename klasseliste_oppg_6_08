@@ -1,0 +1,86 @@
+<script>
+	let klasseliste =[
+		{fornavn: "Geir", etternavn:"Johansen", checked:false},
+		{fornavn: "Pia", etternavn:"Noasen", checked:false},
+		{fornavn: "Ida", etternavn:"Pettersen", checked:false},
+		{fornavn: "Morten", etternavn:"Sputnik", checked:false},
+		{fornavn: "Killian", etternavn:"Hombre", checked:false},
+		{fornavn: "Silje", etternavn:"Olsen", checked:false},
+		{fornavn: "Mikke", etternavn:"Mus", checked:false},
+		{fornavn: "Pluto", etternavn:"Hund", checked:false},
+		{fornavn: "Donnall", etternavn:"Døkk", checked:false},
+		{fornavn: "Onkel", etternavn:"Skrue", checked:false},
+		{fornavn: "Nasse", etternavn:"Nøff", checked:false},
+		{fornavn: "Ole", etternavn:"Brum", checked:false},
+		{fornavn: "Jason", etternavn:"Bourne", checked:false},
+		{fornavn: "Jens-Petter", etternavn:"Hætta", checked:false},
+		{fornavn: "Lisa-Marie", etternavn:"Nilsen", checked:false},
+		{fornavn: "Super", etternavn:"Laser", checked:false},
+		{fornavn: "Hans", etternavn:"Skyblazer", checked:false},
+		{fornavn: "Patrick", etternavn:"Pondus", checked:false},
+		{fornavn: "Joachim", etternavn:"Jumbo", checked:false},
+		{fornavn: "Heather", etternavn:"Wheather", checked:false},
+	]
+	
+	function HentTabell(input, field) {
+    var output = [];
+    for (var i=0; i < input.length ; ++i)
+        output.push(input[i][field]);
+    return output;
+}
+
+let oppmøte = []
+	
+var fornavnliste = HentTabell(klasseliste, "fornavn")
+	
+var etternavnliste =HentTabell(klasseliste, "etternavn")
+
+const sorterEtternavn = () => { klasseliste = klasseliste.sort((a, b) => a.etternavn.localeCompare(b.etternavn)) }
+
+const sorterFornavn = () => { klasseliste = klasseliste.sort((a, b) => a.fornavn.localeCompare(b.fornavn)) }
+
+
+</script>
+
+
+<h1>Klasselister</h1>
+
+
+<h2>Fornavnliste</h2>
+<p>
+	{fornavnliste.join(", ")}
+</p>
+<h2>Etternavnliste</h2><p>
+	{etternavnliste.join(", ")}
+</p>
+<h2>Klassetabell</h2>
+
+<table>
+	<tr><th>Elevnr</th><th>Fornavn</th><th>Etternavn</th><th>Tilstede</th></tr>
+	{#each klasseliste as elev}
+	<tr><td>{2+i++}<td>{elev.fornavn}</td><td>{elev.etternavn}</td>
+		<td><input type=checkbox bind:checked={elev.checked}></td></tr>
+	{/each}
+</table>
+
+<button
+	on:click={sorterFornavn}> Sorter fornavn
+</button>
+
+<button
+	on:click={sorterEtternavn}> Sorter etternavn
+</button>
+<h2>
+	Hjertelig tilstede i dag:
+</h2>
+
+<table>
+	<tr><th>Fornavn</th><th>Etternavn</th></tr>
+	
+{#each klasseliste as elev}
+	{#if elev.checked == true}
+	<tr><td>{elev.fornavn}</td><td>{elev.etternavn}</td></tr>
+	{/if}
+	{/each}
+</table>
+
