@@ -1,7 +1,7 @@
-
-{ "klasse" : "2STQ",
+{ 
+	"klasse" : "2STQ",
 		"elever" : [
-		{fornavn: "Geir", etternavn:"Johansen"},
+		{fornavn : "Geir", etternavn : "Johansen" },
 		{fornavn: "Pia", etternavn:"Noasen"},
 		{fornavn: "Ida", etternavn:"Pettersen"},
 		{fornavn: "Morten", etternavn:"Sputnik"},
