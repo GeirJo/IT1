@@ -1,0 +1,25 @@
+{ 
+	"tittel" : "Heggen vgs",
+		"elever" : [
+		{"fornavn" : "Geir", "etternavn" : "Johansen" , "klasse" : "2STA"},
+		{"fornavn": "Pia", "etternavn" : "Noasen" , "klasse" : "2STB"},
+		{"fornavn": "Ida", "etternavn" : "Pettersen" , "klasse" : "2STB"},
+		{"fornavn": "Morten", "etternavn" : "Sputnik", "klasse" : "2STA" },
+		{"fornavn": "Killian", "etternavn" : "Hombre" , "klasse" : "2STC"},
+		{"fornavn": "Silje", "etternavn" : "Olsen" , "klasse" : "2STD"},
+		{"fornavn": "Mikke", "etternavn" : "Mus" , "klasse" : "2STA"},
+		{"fornavn": "Pluto", "etternavn" : "Hund" , "klasse" : "2STB"},
+		{"fornavn": "Donnall", "etternavn" : "Døkk" , "klasse" : "2STD"},
+		{"fornavn": "Onkel", "etternavn" : "Skrue" , "klasse" : "2STB"},
+		{"fornavn": "Nasse", "etternavn" : "Nøff" , "klasse" : "2STC"},
+		{"fornavn": "Ole", "etternavn" : "Brum" , "klasse" : "2STD"},
+		{"fornavn": "Jason", "etternavn" : "Bourne" , "klasse" : "2STC"},
+		{"fornavn": "Jens-Petter", "etternavn" : "Hætta" , "klasse" : "2STA"},
+		{"fornavn": "Lisa-Marie", "etternavn" : "Nilsen" , "klasse" : "2STA"},
+		{"fornavn": "Super", "etternavn" : "Laser" , "klasse" : "2STB"},
+		{"fornavn": "Hans", "etternavn" : "Skyblazer" , "klasse" : "2STD"},
+		{"fornavn": "Patrick", "etternavn" : "Pondus" , "klasse" : "2STD"},
+		{"fornavn": "Joachim", "etternavn" : "Jumbo" , "klasse" : "2STC"},
+		{"fornavn": "Heather", "etternavn" : "Wheather" , "klasse" : "2STB"}
+		]
+}
