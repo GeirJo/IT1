@@ -1,0 +1,22 @@
+<script>
+ let klasse
+ let elever = []
+	
+const hentElever = async() => {
+	const data = await fetch("https://raw.githubusercontent.com/GeirJo/IT1/main/klasseliste.json")
+	const json = await data.json()
+	klasse = json.klasse
+	elever = json.elever
+}
+hentElever()
+</script>
+
+<h1>Klasse {klasse}</h1>
+{#each elever as elev}
+<p> {elev.fornavn}, {elev.etternavn}</p>
+
+{:else}
+<p>
+	Henter data... - særlig...
+</p>
+{/each}
