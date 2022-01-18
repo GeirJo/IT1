@@ -1,0 +1,26 @@
+{ 
+	"klasse" : "2STQ",
+		"elever" : [
+		{"fornavn" : "Geir", "etternavn" : "Johansen", "tilstede" : "false"},
+		{"fornavn": "Pia", "etternavn" : "Noasen" , "tilstede" : "false"},
+		{"fornavn": "Ida", "etternavn" : "Pettersen" , "tilstede" : "false"},
+		{"fornavn": "Morten", "etternavn" : "Sputnik" , "tilstede" : "false"},
+		{"fornavn": "Killian", "etternavn" : "Hombre", "tilstede" : "false" },
+		{"fornavn": "Silje", "etternavn" : "Olsen" , "tilstede" : "false"},
+		{"fornavn": "Mikke", "etternavn" : "Mus" , "tilstede" : "false"},
+		{"fornavn": "Pluto", "etternavn" : "Hund" , "tilstede" : "false"},
+		{"fornavn": "Donnall", "etternavn" : "Døkk" , "tilstede" : "false"},
+		{"fornavn": "Onkel", "etternavn" : "Skrue" , "tilstede" : "false"},
+		{"fornavn": "Nasse", "etternavn" : "Nøff" , "tilstede" : "false"},
+		{"fornavn": "Ole", "etternavn" : "Brum", "tilstede" : "false" },
+		{"fornavn": "Jason", "etternavn" : "Bourne" , "tilstede" : "false"},
+		{"fornavn": "Jens-Petter", "etternavn" : "Hætta" , "tilstede" : "false"},
+		{"fornavn": "Lisa-Marie", "etternavn" : "Nilsen" , "tilstede" : "false"},
+		{"fornavn": "Super", "etternavn" : "Laser" , "tilstede" : "false"},
+		{"fornavn": "Hans", "etternavn" : "Skyblazer" , "tilstede" : "false"},
+		{"fornavn": "Patrick", "etternavn" : "Pondus" , "tilstede" : "false"},
+		{"fornavn": "Joachim", "etternavn" : "Jumbo" , "tilstede" : "false"},
+		{"fornavn": "Heather", "etternavn" : "Wheather" , "tilstede" : "false"}
+		]
+}
+	
