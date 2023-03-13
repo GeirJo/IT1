@@ -1,8 +1,8 @@
-{ 
+[
 	
-		"fornavn" : "Geir", "etternavn" : "Johansen" , "klasse" : "2STA",
-		"fornavn": "Pia", "etternavn" : "Noasen" , "klasse" : "2STB",
-		"fornavn": "Ida", "etternavn" : "Pettersen" , "klasse" : "2STB",
+	{"fornavn" : "Geir", "etternavn" : "Johansen" , "klasse" : "2STA"},
+	 {	"fornavn": "Pia", "etternavn" : "Noasen" , "klasse" : "2STB"},
+	 {	"fornavn": "Ida", "etternavn" : "Pettersen" , "klasse" : "2STB"}
 	
 		
-}
+]
